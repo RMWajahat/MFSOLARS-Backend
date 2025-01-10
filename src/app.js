@@ -31,7 +31,7 @@ app.use(cookieParser()); // cookie parser ka use kara ga
 
 // cors usage
 app.use(crossOriginSharing({
-    origin: "http://localhost:5173",   // origin ka mtlb hai ka kis domain sa request a rahi hai
+    origin: "https://www.mfsolars.com",  
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
